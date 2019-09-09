@@ -308,3 +308,44 @@ footer {
         align-content: center;
     }
 }
+
+@media(max-width: 500px){
+    header nav {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav a{
+        margin: 0;
+        text-align: center;
+        border: 1px solid grey;
+        width: 100%;
+    }
+    
+    .cta .cta-text {
+        margin-top: 10px;
+    }
+    .main-content{
+        width: 470px;
+        padding: 20px;
+    }
+        .top-content {
+        flex-direction: column;
+
+    }
+    .main-content img{
+        width: 450px;
+        margin-right: 0px;
+        margin-bottom: 34px;
+        padding: 20px;
+        padding-left: 0;
+        align-content: center;
+    }
+    .bottom-content{
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .contact{
+        width: 470px;
+    }
+}
